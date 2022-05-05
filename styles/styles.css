@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: auto;
+  width: 50%;
+}
+
+.logo {
+  padding: 20px;
+  margin: auto;
+  width: 30vw;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.line {
+  background-color: black;
+  height: 10px;
+  width: 100%;
+}
